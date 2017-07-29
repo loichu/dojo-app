@@ -37,6 +37,8 @@ export default new VueRouter({
     { path: '/epfl-topics', component: load('EPFLTopics') },
     // About
     { path: '/about', component: load('About') },
+    // New Archive
+    { path: '/archives/new', component: load('NewArchive')},
     // 404
     { path: '*', component: load('Error404') } // Not found
   ]
