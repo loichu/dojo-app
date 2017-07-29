@@ -33,6 +33,7 @@
         <small>Check out <a href="https://github.com/epfl-dojo">EPFL-Dojo</a> gh repo.</small>
       </div>
     </q-layout> -->
+    </q-layout>
   </div>
 </template>
 
