@@ -38,7 +38,7 @@ export default new VueRouter({
     // About
     { path: '/about', component: load('About') },
     // New Archive
-    { path: '/archives/new', component: load('NewArchive')},
+    { path: '/archives/new', component: load('FormArchive') },
     // 404
     { path: '*', component: load('Error404') } // Not found
   ]

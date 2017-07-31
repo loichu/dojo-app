@@ -8,7 +8,7 @@
   <div class="timeline">
      <dojo-time-line-item :event="event" v-for="event in events"></dojo-time-line-item>
   </div>
-  <button class="primary small circular fixed-top-right" style="margin: 20px; margin-top: 70px">
+  <button v-on:click="$router.push('/archives/new')" class="primary small circular fixed-top-right" style="margin: 20px; margin-top: 70px">
     <i>add</i>
   </button>
 </div>
